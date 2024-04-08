@@ -14,24 +14,26 @@
         </div>
         <script>
             // try to read the username cookie
-            let username = readCookie("username");
+            // let username = readCookie("username");
+            //
+            // // if the cookie exists (otherwise do nothing - just stick with HTML already present
+            // if (username !== undefined) {
+            //     welcomeDiv = document.getElementById("welcome");
+            //
+            //     // display customized greeting and logout option
+            //     welcomeDiv.innerHTML = "<h2>Welcome back, " + username + "!</h2>";
+            //     welcomeDiv.innerHTML += "<p>Click <a href='#' id='logout'>here</a> if you're not " + username + "</p>";
+            //
+            //     // if the user clicks the logout link
+            //     document.getElementById("logout").addEventListener("click", function() {
+            //         // delete the cookie
+            //         setCookie("username", "", -1);
+            //         // reload the page
+            //         window.location.reload();
+            //     });
+            // }
 
-            // if the cookie exists (otherwise do nothing - just stick with HTML already present
-            if (username !== undefined) {
-                welcomeDiv = document.getElementById("welcome");
-
-                // display customized greeting and logout option
-                welcomeDiv.innerHTML = "<h2>Welcome back, " + username + "!</h2>";
-                welcomeDiv.innerHTML += "<p>Click <a href='#' id='logout'>here</a> if you're not " + username + "</p>";
-
-                // if the user clicks the logout link
-                document.getElementById("logout").addEventListener("click", function() {
-                    // delete the cookie
-                    setCookie("username", "", -1);
-                    // reload the page
-                    window.location.reload();
-                });
-            }
+            let username = readCookie()
         </script>
     </body>
 </html>

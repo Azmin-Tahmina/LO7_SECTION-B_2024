@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Create and display cookies</title>
+    <script src="scripts/cookieutils.js"></script>
+    <script src="scripts/cookies_practice.js"></script>
+
+</head>
+
+<body>
+<h1>Fun with cookies!</h1>
+<p>
+    <label for="nameField">Name</label>
+    <input type="text" id="nameField" />
+</p>
+<p>
+    <label for="valueField">Value</label>
+    <input type="text" id="valueField" />
+</p>
+<p>
+    <input type="radio" id="cookieP" name="cookieType"
+           value="persistent" checked="checked" />
+    <label for="cookieP">Persistent</label>
+    <input type="radio" id="cookieS" name="cookieType"
+           value="session" />
+    <label for="cookieS">Session</label>
+</p>
+<p>
+    <button id="btnSet">Set cookie</button>
+</p>
+<p>
+    Cookie values: <span id="cookieValues"></span>
+</p>
+<p>
+    <button id="btnDisplay">Display cookies</button>
+</p>
+</body>
+
+<script>
+    "use strict"
+
+    window.onload = function ()
+    {
+        document.getElementById("btnDisplay").onclick = function ()
+        {
+            document.getElementById("cookieValues").innerHTML = decodeURIComponent(document.cookie)
+        }
+    }
+
+    document.getElementById("btnSet").onclick = setCookieClick
+    function  setCookieClick()
+    {
+        let cookieName = document.getElementById("nameField").value
+        let cookieValue = document.getElementById("valueField").value
+        //let cookieString = encodeURIComponent(cookieName)+"="+encodeURIComponent(cookieValue)
+        let days = 0
+        if(document.getElementById("cookieP").checked)
+        {
+            // let expdate = new Date();
+            // expdate.setDate(expdate.getDate()+7)
+            // let dateString = expdate.toUTCString();
+            // cookieString+= ";expires:"+dateString
+            days = 7
+        }
+        //document.cookie = cookieString
+        setCookie(cookieName,cookieValue,days)
+    }
+
+</script>
+</html>

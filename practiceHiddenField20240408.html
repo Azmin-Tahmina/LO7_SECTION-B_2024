@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Maintaining state using hidden form fields</title>
+</head>
+
+<body>
+<form id="orderform" action="aformprocessor.html" method="get">
+    <p>
+        <label for="quantity">Quantity to order:</label>
+        <input type="text" id="quantity" name="quantity" />
+        <input type="hidden" id="testHiddenField" name="testHiddenField" Value="testHiddenValue" />
+    </p>
+
+    <p>
+        <button type="submit">Submit order</button>
+        <button type="reset">Reset form</button>
+    </p>
+</form>
+</body>
+<script>
+    "use strict"
+
+    window.onload = init
+
+    function init()
+    {
+        let urlField = document.createComment("input")
+        urlField.type = "hidden"
+        urlField.name = "hiddenInput"
+        urlField.id = "hiddenInput"
+        urlField.value = window.location
+        document.getElementById("orderform").appendChild(urlField)
+    }
+
+</script>
+</html>
