@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CWEB 190 Home Page</title>
+        <script src="scripts/cookieutils.js"></script>
+    </head>
+
+    <body>
+            <h1>CWEB 190 Home Page</h1>
+            <h2 id="welcomeHeading">Welcome, stranger!</h2>
+            <p id="actionParagraph">Click <a href="practicelogin20240412.html">here</a> to login</p>
+    </body>
+    <script>
+        "use strict"
+
+        //Steps required:
+        // cookie can have name=value pair
+        // here name->username
+        // 1. Read cookie "username"
+        let username = readCookie("username")
+        // 2. Check "username" is containing any value or not
+        // 3. if it is containing any value -
+        // 4. replace innertext from h2
+        // 5. replace innertext for
+        // 6. in p add link for logout
+        // 7. by clicking logout link, unset/remove the cookie
+        // 8 . reload the page
+        if(username !== undefined)
+        {
+            document.getElementById("welcomeHeading").innerHTML = "Welcome "+username;
+            document.getElementById("actionParagraph").innerHTML = "Click <a href='#' id='logout'> " + "Logout" + "</a>"
+            document.getElementById("logout").onclick = function (){
+                // delete the cookie value
+                setCookie("username","",-1)
+                window.location.reload()
+            }
+        }
+
+
+
+    </script>
+</html>

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="443d6024-04dd-455d-b6ca-afebf935b1d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/computers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/electronics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceCookie20240408.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceHiddenField20240408.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practiceRewriteUrl20240408.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practicehome20240412.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practicelogin20240412.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-practice.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,19 +25,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/azmint/OneDrive - Saskatchewan Polytechnic/Desktop/CWEB190/For class/lo7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\azmint\OneDrive - Saskatchewan Polytechnic\Desktop\CWEB190\For class\lo7" />
+      <recent name="C:\Users\azmint\OneDrive - Saskatchewan Polytechnic\Desktop\CWEB190\For class\lo7\scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\azmint\OneDrive - Saskatchewan Polytechnic\Desktop\CWEB190\For class\lo7" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +59,8 @@
       <workItem from="1644328905384" duration="1190000" />
       <workItem from="1711557631644" duration="2384000" />
       <workItem from="1712588443615" duration="8142000" />
+      <workItem from="1712941645248" duration="481000" />
+      <workItem from="1712950385349" duration="4168000" />
     </task>
     <servers />
   </component>
